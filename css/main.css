@@ -71,7 +71,18 @@ header:after {
 
 /*--------------------------overlay--------------------------*/
 
-.overlay-container { position: relative; display: inline-block; }
+.overlay-container { 
+  position: relative; 
+  display: inline-block; 
+  width:100%;
+}
+
+
+img{
+  width:100%;
+  height:auto;
+}
+
 
 .overlayDC {
   visibility: hidden;
@@ -187,8 +198,6 @@ header:after {
   text-transform: uppercase;
   padding-top:15px;
 }
-
-
 
 
 
