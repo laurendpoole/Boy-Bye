@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400italic,600,800italic);
+
+*{
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/*--------------------------Header--------------------------*/
+
+html {
+  overflow-y: scroll; 
+
+}
+
+html, body{
+  height:100%;
+  font-family: 'Raleway', sans-serif; 
+}
+
+header {
+  padding-top:20%;
+  color:grey;
+  width:100%;
+  text-align: center;
+  height:100%;
+}
+
+header:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/*.subtitle p{
+  font-size: 1.5em;
+  font-style: italic;
+  margin-left:5%;
+  width:150px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:white;
+}
+
+.title{
+  width:70%;
+}*/
+
+
+
+
+/*--------------------------arrow--------------------------*/
+
+
+
+
+
+/*--------------------------overlay--------------------------*/
+
+.overlay-container { position: relative; display: inline-block; }
+
+.overlayDC {
+  visibility: hidden;
+  opacity: 0;
+
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+
+  padding: 1rem;
+  background-color: rgba(165, 217, 238, .8);
+  color: white;
+  font-size: 1.2rem;
+
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+
+}
+
+.overlayPA {
+  visibility: hidden;
+  opacity: 0;
+
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+
+  padding: 1rem;
+  background-color: rgba(207, 198, 215, .8);
+  color: white;
+  font-size: 1.2rem;
+
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.overlayMD {
+  visibility: hidden;
+  opacity: 0;
+
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+
+  padding: 1rem;
+  background-color: rgba(237, 192, 63, .8);
+  color: white;
+  font-size: 1.2rem;
+
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+
+.overlay-container:hover .overlayDC {
+  visibility: visible;
+  opacity: 1;
+}
+
+.overlay-container:hover .overlayPA {
+  visibility: visible;
+  opacity: 1;
+}
+
+.overlay-container:hover .overlayMD {
+  visibility: visible;
+  opacity: 1;
+}
+
+.imageText{
+  font-style: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top:40%;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------footer--------------------------*/
+
+footer{
+  height:75px;
+  background-color:#AADCF1;
+}
+
+
+footer p{
+  text-align:center;
+  color:white;
+  font-style:italic;
+  font-size: 1rem;
+  font-weight: 800;
+  padding-top:25px;
+  text-transform: uppercase;
+}
+
+footer p a{
+  text-decoration: none;
+  color:white;
+}
+
+
