@@ -20,6 +20,34 @@
   clear: both;
 }
 
+
+/*--------------------------colors--------------------------*/
+
+/*
+
+Purple
+  #E7D9E9
+
+Light Purple
+  #F8F5F9
+
+Gray
+  #3A3A3C
+
+Blue
+  #AADCF1
+
+Light Blue
+  #ECF6FB
+
+Orange
+  #FDBD4B
+  
+Light Orange
+  #FFEFD6
+
+*/
+
 /*--------------------------Header--------------------------*/
 
 html {
@@ -30,7 +58,7 @@ html {
 html, body{
   height:100%;
   font-family: 'Raleway', sans-serif; 
-  background-color: #EEF5FB;
+  background-color: #ECF6FB;
 }
 
 header {
@@ -39,7 +67,7 @@ header {
   text-align: center;*/
   height:100%;
   position: relative;
-  background-color: #EEF5FB;
+  background-color: #F8F5F9;
 }
 
 header p{
@@ -294,6 +322,9 @@ footer p a{
   color:white;
 }
 
+footer p a:hover{
+  color:#3A3A3C;
+}
 
 
 /*--------------------------media queries--------------------------*/

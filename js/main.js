@@ -1,16 +1,9 @@
 $(document).ready(function() {
-	console.log("hellooo, it's me")
+ console.log("hellooo, it's me");
 
-
-
-$('.grid').isotope({
-  itemSelector: '.grid-item',
-  percentPosition: true,
-  masonry: {
-    columnWidth: '.grid-sizer'
-  }
+$(".contentDiv").click(function(){
+    $("html,body").animate({
+        scrollTop: $(".main").offset().top},
+        "slow");
 });
-
-
-
 });
