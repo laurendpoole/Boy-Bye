@@ -1,5 +1,20 @@
 $(document).ready(function() {
- console.log("hellooo, it's me");
+		console.log("hellooo, it's me");
+		
+
+$(".fancybox").fancybox({
+		padding: 0 // remove white border
+		
+	});	
+
+$('.image').fancybox({
+  padding: 0,
+  helpers: {
+    overlay: {
+      locked: false
+    }
+  }
+});
 
 $(".contentDiv").click(function(){
     $("html,body").animate({
@@ -7,3 +22,5 @@ $(".contentDiv").click(function(){
         "slow");
 });
 });
+
+
