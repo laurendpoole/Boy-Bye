@@ -93,7 +93,7 @@ header:after {
 .titleTablet{
 visibility: hidden;
 position: absolute;
-width:80%;
+width:96%;
 padding-right:20px;
 margin:auto;
 top: 0;
@@ -256,39 +256,42 @@ img{
   visibility: hidden;
   background-color: rgba(165, 217, 238, .8);
   color:white;
-  font-weight: 600;
-  font-size: 1.25rem;
+  font-weight: 700;
+  font-size: 2rem;
   text-align: center;
   position: absolute; 
   bottom: 0; left: 0; right: 0;
   text-transform: uppercase;
-  padding-top:15px;
+  padding-top:30px;
+  padding-bottom:15px;
 }
 
 .PAmobile{
   visibility: hidden;
   background-color: rgba(207, 198, 215, .8);
   color:white;
-  font-weight: 600;
-  font-size: 1.25rem;
+  font-weight: 700;
+  font-size: 2rem;
   text-align: center;
   position: absolute; 
   bottom: 0; left: 0; right: 0;
   text-transform: uppercase;
-  padding-top:15px;
+  padding-top:30px;
+  padding-bottom:15px;
 }
 
 .MDmobile{
   visibility: hidden;
   background-color: rgba(237, 192, 63, .8);
   color:white;
-  font-weight: 600;
-  font-size: 1.25rem;
+  font-weight: 700;
+  font-size: 2rem;
   text-align: center;
   position: absolute; 
   bottom: 0; left: 0; right: 0;
   text-transform: uppercase;
-  padding-top:15px;
+  padding-top:30px;
+  padding-bottom:15px;
 }
 
 
