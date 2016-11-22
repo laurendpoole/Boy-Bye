@@ -3,18 +3,16 @@ $(document).ready(function() {
 		
 
 $(".fancybox").fancybox({
-		padding: 0 // remove white border
-		
-	});	
-
-$('.image').fancybox({
-  padding: 0,
-  helpers: {
-    overlay: {
-      locked: false
-    }
-  }
+		openEffect : 'fade',
+		closeEffect : 'fade',
+		padding: 0,
+		helpers: {
+		overlay: {
+		locked: false
+	}
+}
 });
+
 
 $(".contentDiv").click(function(){
     $("html,body").animate({
